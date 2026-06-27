@@ -1,0 +1,150 @@
+.recipes-page {
+  padding: 2rem 1.5rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* ---- Search Bar ---- */
+.search-section {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 560px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  font-size: 1.1rem;
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.85rem 3rem 0.85rem 2.8rem;
+  border: 2px solid #e5e0d8;
+  border-radius: 50px;
+  font-size: 1rem;
+  background: #fff;
+  color: #2d1f0e;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: inherit;
+}
+
+.search-input:focus {
+  border-color: #c0652b;
+  box-shadow: 0 0 0 3px rgba(192, 101, 43, 0.15);
+}
+
+.search-input::placeholder {
+  color: #a89880;
+}
+
+.search-clear {
+  position: absolute;
+  right: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #a89880;
+  font-size: 0.95rem;
+  padding: 0.2rem;
+  line-height: 1;
+  transition: color 0.15s;
+}
+
+.search-clear:hover {
+  color: #c0652b;
+}
+
+/* ---- Section Title ---- */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2d1f0e;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.cuisine-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c0652b;
+  background: #fdf3ec;
+  padding: 0.3rem 0.9rem;
+  border-radius: 50px;
+}
+
+/* ---- No Results ---- */
+.no-results {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #5a4030;
+}
+
+.no-results p {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.no-results-hint {
+  font-size: 0.9rem !important;
+  color: #a89880;
+}
+
+.back-to-all {
+  margin-top: 1.5rem;
+  background: none;
+  border: 2px solid #e5e0d8;
+  border-radius: 50px;
+  padding: 0.6rem 1.4rem;
+  color: #7a5c3e;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+  font-family: inherit;
+  display: inline-block;
+}
+
+.back-to-all:hover {
+  border-color: #c0652b;
+  color: #c0652b;
+}
+
+/* ---- Back button on Details page ---- */
+.back-btn {
+  background: none;
+  border: 2px solid #e5e0d8;
+  border-radius: 50px;
+  padding: 0.55rem 1.2rem;
+  color: #7a5c3e;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  transition: border-color 0.2s, color 0.2s;
+  font-family: inherit;
+}
+
+.back-btn:hover {
+  border-color: #c0652b;
+  color: #c0652b;
+}
+/* Add Recipe Button Container */
+.add-btn-container {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  margin: 1.5rem 0 2rem;
+}
+
